@@ -1,0 +1,45 @@
+/* App.css */
+
+#App-wrapper {
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+}
+#app {
+  text-align: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#head {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin: 5px;
+}
+button {
+  padding: 10px 20px;
+  border: 1px solid black;
+  /* margin: 5px; */
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+}
+button:hover {
+  background-color: rgba(9, 204, 9, 0.61);
+}
+
+p {
+  background-color: rgb(230, 230, 230);
+  padding: 10px 20px;
+  margin: 5px 0px;
+  text-transform: capitalize;
+}
+p span {
+  color: green;
+}
